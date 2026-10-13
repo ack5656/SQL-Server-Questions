@@ -27,26 +27,9 @@ SQL_Server_Questions/
 ├── 15_Advanced_SQL/
 └── README.md
 
-Topics Covered
 
-Folder| Topics
-"01_Basics"| SQL fundamentals, SELECT, DISTINCT, aliases
-"02_Data_Definition"| CREATE, ALTER, DROP, database and table definitions
-"03_Data_Manipulation"| INSERT, UPDATE, DELETE
-"04_Filtering_and_Sorting"| WHERE, AND, OR, IN, BETWEEN, LIKE, ORDER BY
-"05_Aggregate_Functions"| COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING
-"06_Joins"| INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
-"07_Subqueries"| Nested queries, correlated subqueries, EXISTS
-"08_CTEs"| Common Table Expressions and recursive CTEs
-"09_Window_Functions"| ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, window aggregates
-"10_String_Functions"| CONCAT, SUBSTRING, LEN, TRIM, REPLACE, UPPER, LOWER
-"11_Date_and_Time_Functions"| GETDATE, DATEADD, DATEDIFF, DATEPART, CAST, CONVERT
-"12_Stored_Procedures"| Creating, executing, and modifying stored procedures
-"13_Views_and_Triggers"| Views, triggers, and their practical applications
-"14_Transactions"| BEGIN TRANSACTION, COMMIT, ROLLBACK, error handling
-"15_Advanced_SQL"| Complex queries, temporary tables, dynamic SQL, performance techniques
 
-Technologies Used
+Technologies Used: 
 
 - Microsoft SQL Server
 - T-SQL (Transact-SQL)
