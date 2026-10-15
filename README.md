@@ -9,6 +9,8 @@ New questions and solutions will be added regularly as I continue learning Micro
 Repository Structure
 
 SQL_Server_Questions/
+
+
 ├── 01_Basics/
 ├── 02_Data_Definition/
 ├── 03_Data_Manipulation/
