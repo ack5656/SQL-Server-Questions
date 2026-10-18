@@ -14,23 +14,54 @@ As I progress, I will continue adding new questions and solutions to this reposi
 
 Repository Structure
 
-SQL_Server_Questions/
-├── 01_Basics/
-├── 02_Data_Definition/
-├── 03_Data_Manipulation/
-├── 04_Filtering_and_Sorting/
-├── 05_Aggregate_Functions/
-├── 06_Joins/
-├── 07_Subqueries/
-├── 08_CTEs/
-├── 09_Window_Functions/
-├── 10_String_Functions/
-├── 11_Date_and_Time_Functions/
-├── 12_Stored_Procedures/
-├── 13_Views_and_Triggers/
-├── 14_Transactions/
-├── 15_Advanced_SQL/
-└── README.md
+The repository is organized into the following folders in sequential order:
+
+01 — Basics
+"01_Basics/"
+
+02 — Data Definition
+"02_Data_Definition/"
+
+03 — Data Manipulation
+"03_Data_Manipulation/"
+
+04 — Filtering and Sorting
+"04_Filtering_and_Sorting/"
+
+05 — Aggregate Functions
+"05_Aggregate_Functions/"
+
+06 — Joins
+"06_Joins/"
+
+07 — Subqueries
+"07_Subqueries/"
+
+08 — Common Table Expressions
+"08_CTEs/"
+
+09 — Window Functions
+"09_Window_Functions/"
+
+10 — String Functions
+"10_String_Functions/"
+
+11 — Date and Time Functions
+"11_Date_and_Time_Functions/"
+
+12 — Stored Procedures
+"12_Stored_Procedures/"
+
+13 — Views and Triggers
+"13_Views_and_Triggers/"
+
+14 — Transactions
+"14_Transactions/"
+
+15 — Advanced SQL
+"15_Advanced_SQL/"
+
+Main file: "README.md"
 
 ---
 
