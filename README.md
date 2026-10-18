@@ -1,19 +1,20 @@
 SQL Server Questions and Solutions
 
+A structured collection of SQL Server practice questions and solutions, organized from beginner to advanced level.
+
 About This Repository
 
-This repository contains my SQL Server practice questions and solutions, organized topic-wise from basic to advanced levels.
+This repository documents my journey of learning Microsoft SQL Server and T-SQL (Transact-SQL) through hands-on practice.
 
-The goal is to strengthen SQL knowledge, improve query-writing skills, and develop problem-solving abilities for database management, data analytics, and data science.
+It contains SQL questions, query solutions, and practical examples organized topic-wise to help me strengthen my database concepts, improve problem-solving skills, and prepare for technical interviews.
 
-New questions and solutions will be added regularly as I continue learning Microsoft SQL Server and T-SQL.
+As I progress, I will continue adding new questions and solutions to this repository.
 
 ---
 
 Repository Structure
 
 SQL_Server_Questions/
-│
 ├── 01_Basics/
 ├── 02_Data_Definition/
 ├── 03_Data_Manipulation/
@@ -29,7 +30,6 @@ SQL_Server_Questions/
 ├── 13_Views_and_Triggers/
 ├── 14_Transactions/
 ├── 15_Advanced_SQL/
-│
 └── README.md
 
 ---
@@ -38,107 +38,146 @@ Topics Covered
 
 01. Basics
 
-SQL fundamentals, "SELECT", "DISTINCT", aliases, and basic queries.
+Learn the fundamentals of SQL and retrieve data using basic queries.
+
+Concepts: "SELECT", "DISTINCT", column aliases, and basic SQL syntax.
 
 02. Data Definition
 
-"CREATE", "ALTER", "DROP", and database and table definitions.
+Learn how to create and modify database structures.
+
+Concepts: "CREATE", "ALTER", "DROP", databases, and tables.
 
 03. Data Manipulation
 
-"INSERT", "UPDATE", and "DELETE" statements.
+Learn how to insert, modify, and remove records from tables.
+
+Concepts: "INSERT", "UPDATE", and "DELETE".
 
 04. Filtering and Sorting
 
-"WHERE", "AND", "OR", "IN", "BETWEEN", "LIKE", and "ORDER BY".
+Filter records based on conditions and arrange query results.
+
+Concepts: "WHERE", "AND", "OR", "IN", "BETWEEN", "LIKE", and "ORDER BY".
 
 05. Aggregate Functions
 
-"COUNT", "SUM", "AVG", "MIN", "MAX", "GROUP BY", and "HAVING".
+Summarize data and calculate useful statistical values.
+
+Concepts: "COUNT", "SUM", "AVG", "MIN", "MAX", "GROUP BY", and "HAVING".
 
 06. Joins
 
-"INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "CROSS JOIN", and "SELF JOIN".
+Combine data from multiple tables using related columns.
+
+Concepts: "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN", "CROSS JOIN", and "SELF JOIN".
 
 07. Subqueries
 
-Nested queries, correlated subqueries, and "EXISTS".
+Write queries inside other queries to solve complex problems.
 
-08. CTEs
+Concepts: Nested queries, correlated subqueries, and "EXISTS".
 
-Common Table Expressions (CTEs) and recursive CTEs.
+08. Common Table Expressions (CTEs)
+
+Simplify complex queries using named temporary result sets.
+
+Concepts: Non-recursive CTEs and recursive CTEs.
 
 09. Window Functions
 
-"ROW_NUMBER", "RANK", "DENSE_RANK", "LEAD", "LAG", and window aggregate functions.
+Perform calculations across related rows without combining them into a single result row.
+
+Concepts: "ROW_NUMBER", "RANK", "DENSE_RANK", "LEAD", "LAG", and aggregate window functions.
 
 10. String Functions
 
-"CONCAT", "SUBSTRING", "LEN", "TRIM", "REPLACE", "UPPER", and "LOWER".
+Manipulate and transform text data.
+
+Concepts: "CONCAT", "SUBSTRING", "LEN", "TRIM", "REPLACE", "UPPER", and "LOWER".
 
 11. Date and Time Functions
 
-"GETDATE", "DATEADD", "DATEDIFF", "DATEPART", "CAST", and "CONVERT".
+Work with dates, times, date differences, and date conversions.
+
+Concepts: "GETDATE", "DATEADD", "DATEDIFF", "DATEPART", "CAST", and "CONVERT".
 
 12. Stored Procedures
 
-Creating, executing, and modifying stored procedures.
+Create reusable SQL programs to execute database operations.
+
+Concepts: Creating, executing, altering, and managing stored procedures.
 
 13. Views and Triggers
 
-Creating views, working with triggers, and understanding their applications.
+Create virtual tables and automate database actions in response to data changes.
+
+Concepts: Views, triggers, and their practical applications.
 
 14. Transactions
 
-"BEGIN TRANSACTION", "COMMIT", "ROLLBACK", and transaction error handling.
+Maintain data consistency by managing groups of database operations.
+
+Concepts: "BEGIN TRANSACTION", "COMMIT", "ROLLBACK", and transaction error handling.
 
 15. Advanced SQL
 
-Complex queries, temporary tables, dynamic SQL, and query performance techniques.
+Explore advanced querying techniques and database performance concepts.
+
+Concepts: Temporary tables, dynamic SQL, complex queries, and query optimization.
 
 ---
 
 Technologies Used
 
-- Microsoft SQL Server
-- T-SQL (Transact-SQL)
-- SQL Server Management Studio (SSMS)
+- Database: Microsoft SQL Server
+- Query Language: T-SQL (Transact-SQL)
+- Development Tool: SQL Server Management Studio (SSMS)
+- Version Control: Git and GitHub
 
 ---
 
-Objectives
+Learning Objectives
 
-- Practice SQL Server questions from basic to advanced levels.
-- Understand SQL concepts through practical examples.
-- Improve logical thinking and query-writing skills.
-- Prepare for technical interviews and coding assessments.
-- Build a strong foundation for data analytics and data science.
-- Maintain a structured collection of SQL solutions for revision.
+- Build a strong foundation in SQL Server and relational databases.
+- Understand SQL concepts through practical exercises.
+- Develop logical thinking and efficient query-writing skills.
+- Solve increasingly complex database problems.
+- Prepare for SQL technical interviews and coding assessments.
+- Apply SQL skills to data analytics and data science projects.
+- Maintain an organized collection of solutions for revision.
 
 ---
 
 How to Use This Repository
 
 1. Clone or download this repository.
-2. Navigate to the folder for the topic you want to practice.
-3. Open the relevant ".sql" file in SQL Server Management Studio (SSMS).
-4. Execute the queries in a compatible SQL Server environment.
-5. Try solving each question independently before reviewing the solution.
+2. Open the folder corresponding to the topic you want to practice.
+3. Open a ".sql" file in SQL Server Management Studio (SSMS).
+4. Connect to a compatible SQL Server instance.
+5. Execute the queries and examine the results.
+6. Attempt each question independently before checking the solution.
+
+Note: Some exercises may require sample databases or tables to be created before execution. Read the SQL file instructions, if provided.
 
 ---
 
 Progress Tracking
 
-This is an ongoing learning project. New questions, solutions, and practical examples will be added as I progress from fundamental SQL concepts to advanced querying techniques.
+This repository is an ongoing learning project. New questions, solutions, and practical examples will be added as I explore more SQL Server concepts.
+
+The objective is to progress from fundamental SQL queries to advanced problem-solving and database techniques.
 
 ---
 
-Contributions
+Contributions and Feedback
 
-Suggestions, corrections, and alternative query solutions are welcome.
+Suggestions, corrections, and alternative query solutions are welcome. They can help improve the quality and clarity of the practice material.
 
 ---
 
 Author
 
-Created as part of my journey toward mastering SQL Server and building strong database, data analytics, and data science skills.
+Created as part of my journey toward mastering SQL Server and developing strong database, data analytics, and data science skills.
+
+Learning by practicing. Improving by solving.
